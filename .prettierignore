@@ -32,3 +32,6 @@ tsconfig.tsbuildinfo
 
 # storybook build artifacts
 storybook-static
+
+# webapp build artifacts
+webapp-static

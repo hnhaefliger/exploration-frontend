@@ -13,24 +13,23 @@
     "noImplicitThis": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "strict": true,
 
-    "lib": ["ES2015"],
-    "module": "CommonJS",
     "target": "es5",
 
     "composite": false,
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
     "isolatedModules": true,
     "moduleResolution": "node",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
-    "skipLibCheck": true,
-    "strict": true
+    "skipLibCheck": true
   },
   "exclude": ["node_modules"]
 }
