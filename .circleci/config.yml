@@ -8,7 +8,7 @@ commands:
           command: npm install -g pnpm
       - restore_cache:
           keys:
-            - pnpm-v1-{{ checksum "pnpm-lock.yaml "}}
+            - pnpm-v1-{{ checksum "pnpm-lock.yaml" }}
             - pnpm-v1-
       - run:
           name: "Install dependencies"
@@ -26,7 +26,7 @@ commands:
             - packages/tsconfig/node_modules
             - packages/ui/node_modules
             - packages/use-url-search-param/node_modules
-          key: pnpm-v1-{{ checksum "pnpm-lock.yaml "}}
+          key: pnpm-v1-{{ checksum "pnpm-lock.yaml" }}
 
 jobs:
   build:
