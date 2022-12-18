@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
-    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\""
+    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
+    "license-checker": "license-checker --onlyAllow 'MIT;BSD;WTFPL;Apache-2.0;Apache*;BSD-2-Clause;ISC;BSD-3-Clause;BSD*;CC0-1.0;CC-BY-3.0;Unlicense;UNLICENSED;CC-BY-4;Python-2.0;MPL-2.0'"
   },
   "devDependencies": {
     "prettier": "latest",
-    "prettier-config-custom": "workspace:*"
+    "prettier-config-custom": "workspace:*",
+    "license-checker": "latest"
   },
   "files": [
     "base.json",

@@ -13,7 +13,8 @@
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "prettier": "turbo run prettier",
-    "prettier:fix": "turbo run prettier:fix"
+    "prettier:fix": "turbo run prettier:fix",
+    "license-checker": "turbo run license-checker"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",

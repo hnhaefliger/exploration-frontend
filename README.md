@@ -19,3 +19,10 @@ This repository is just an experiment with frontend tooling
     ```bash
     pnpm install
     ```
+
+### Development
+
+#### Starting the dev server
+``` bash
+pnpm run dev
+```

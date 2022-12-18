@@ -10,7 +10,8 @@
     "lint": "eslint \"**/*.{ts,tsx,js,jsx}\"",
     "lint:fix": "eslint --fix \"**/*.{ts,tsx,js,jsx}\"",
     "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
-    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\""
+    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
+    "license-checker": "license-checker --onlyAllow 'MIT;BSD;WTFPL;Apache-2.0;Apache*;BSD-2-Clause;ISC;BSD-3-Clause;BSD*;CC0-1.0;CC-BY-3.0;Unlicense;UNLICENSED;CC-BY-4;Python-2.0;MPL-2.0'"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -38,7 +39,8 @@
     "prettier-config-custom": "workspace:*",
     "typescript": "^4.9.3",
     "ts-config-custom": "workspace:*",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "license-checker": "latest"
   },
   "engines": {
     "node": "16"

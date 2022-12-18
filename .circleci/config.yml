@@ -59,6 +59,9 @@ jobs:
       - run:
           name: "Prettier"
           command: pnpm run prettier
+      - run:
+          name: "License checker"
+          command: pnpm run license-checker
 
 workflows:
   test:
