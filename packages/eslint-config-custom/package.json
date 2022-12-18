@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-custom",
   "version": "0.0.0",
-  "main": "index.ts",
+  "main": ".eslintrc",
   "license": "MIT",
   "scripts": {
     "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
@@ -11,8 +11,11 @@
   "dependencies": {
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "latest",
     "eslint-plugin-react": "7.31.8",
-    "eslint-config-turbo": "latest"
+    "eslint-config-turbo": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest"
   },
   "devDependencies": {
     "prettier": "latest",

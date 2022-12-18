@@ -27,5 +27,8 @@ yarn-error.log*
 # turbo
 .turbo
 
-# typescript artifacts
+# typescript build artifacts
 tsconfig.tsbuildinfo
+
+# storybook build artifacts
+storybook-static

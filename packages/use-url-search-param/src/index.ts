@@ -1,1 +1,3 @@
-export const useURLSearchParam = () => {};
+export const useURLSearchParam = (): boolean => {
+  return true;
+};
