@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-custom",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "scripts": {
     "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",

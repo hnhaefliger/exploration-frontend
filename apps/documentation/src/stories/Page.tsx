@@ -8,7 +8,7 @@ type User = {
 };
 
 export const Page: React.VFC = () => {
-  const [user, setUser] = React.useState<User>();
+  const [user, setUser] = React.useState<User | undefined>();
 
   return (
     <article>

@@ -34,7 +34,7 @@ importers:
       react: ^18.2.0
       react-dom: ^18.2.0
       storybook: ^6.5.14
-      tsconfig: workspace:*
+      ts-config-custom: workspace:*
       typescript: ^4.9.3
       ui: workspace:*
       vite: ^4.0.0
@@ -61,7 +61,7 @@ importers:
       eslint-config-custom: link:../../packages/eslint-config-custom
       prettier: 2.8.1
       prettier-config-custom: link:../../packages/prettier-config-custom
-      tsconfig: link:../../packages/tsconfig
+      ts-config-custom: link:../../packages/ts-config-custom
       typescript: 4.9.4
       vite: 4.0.1
 
@@ -78,7 +78,7 @@ importers:
       prettier-config-custom: workspace:*
       react: 18.2.0
       react-dom: 18.2.0
-      tsconfig: workspace:*
+      ts-config-custom: workspace:*
       typescript: ^4.5.3
       ui: workspace:*
       use-url-search-param: workspace:*
@@ -97,7 +97,7 @@ importers:
       eslint-config-custom: link:../../packages/eslint-config-custom
       prettier: 2.8.1
       prettier-config-custom: link:../../packages/prettier-config-custom
-      tsconfig: link:../../packages/tsconfig
+      ts-config-custom: link:../../packages/ts-config-custom
       typescript: 4.9.4
 
   packages/eslint-config-custom:
@@ -125,7 +125,7 @@ importers:
     dependencies:
       prettier: 2.8.1
 
-  packages/tsconfig:
+  packages/ts-config-custom:
     specifiers:
       prettier: latest
       prettier-config-custom: workspace:*
@@ -142,7 +142,7 @@ importers:
       prettier: latest
       prettier-config-custom: workspace:*
       react: ^18.2.0
-      tsconfig: workspace:*
+      ts-config-custom: workspace:*
       typescript: ^4.5.3
     devDependencies:
       '@types/react': 18.0.26
@@ -152,7 +152,7 @@ importers:
       prettier: 2.8.1
       prettier-config-custom: link:../prettier-config-custom
       react: 18.2.0
-      tsconfig: link:../tsconfig
+      ts-config-custom: link:../ts-config-custom
       typescript: 4.9.4
 
   packages/use-url-search-param:
@@ -164,7 +164,7 @@ importers:
       prettier: latest
       prettier-config-custom: workspace:*
       react: ^18.2.0
-      tsconfig: workspace:*
+      ts-config-custom: workspace:*
       typescript: ^4.5.3
     devDependencies:
       '@types/react': 18.0.26
@@ -174,7 +174,7 @@ importers:
       prettier: 2.8.1
       prettier-config-custom: link:../prettier-config-custom
       react: 18.2.0
-      tsconfig: link:../tsconfig
+      ts-config-custom: link:../ts-config-custom
       typescript: 4.9.4
 
 packages:

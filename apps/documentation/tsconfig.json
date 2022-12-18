@@ -1,5 +1,8 @@
 {
-  "extends": "tsconfig/vitejs.json",
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "extends": "ts-config-custom/vitejs.json",
   "include": ["vite-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

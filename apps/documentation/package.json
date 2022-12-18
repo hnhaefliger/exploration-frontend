@@ -2,7 +2,6 @@
   "name": "documentation",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
@@ -38,7 +37,7 @@
     "prettier": "latest",
     "prettier-config-custom": "workspace:*",
     "typescript": "^4.9.3",
-    "tsconfig": "workspace:*",
+    "ts-config-custom": "workspace:*",
     "vite": "^4.0.0"
   },
   "engines": {
