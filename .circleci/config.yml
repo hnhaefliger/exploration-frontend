@@ -26,6 +26,7 @@ commands:
             - packages/tsconfig/node_modules
             - packages/ui/node_modules
             - packages/use-url-search-param/node_modules
+          key: pnpm-v1-{{ checksum "pnpm-lock.yaml "}}
 
 jobs:
   build:
@@ -36,7 +37,7 @@ jobs:
       - set_up_dependencies
       - run:
           name: "Build"
-          run: pnpm run build
+          command: pnpm run build
   typecheck:
     docker:
       - image: cimg/node:16.16
@@ -45,7 +46,7 @@ jobs:
       - set_up_dependencies
       - run:
           name: "Check types"
-          run: pnpm run typecheck
+          command: pnpm run typecheck
   lint_format_license:
     docker:
       - image: cimg/node:16.16
@@ -54,10 +55,10 @@ jobs:
       - set_up_dependencies
       - run:
           name: "Lint"
-          run: pnpm run lint
+          command: pnpm run lint
       - run:
           name: "Prettier"
-          run: pnpm run prettier
+          command: pnpm run prettier
 
 workflows:
   test:
