@@ -7,7 +7,7 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "start": "start-storybook -p 6006",
-    "typecheck": "tsc",
+    "typecheck": "tsc --noEmit true",
     "lint": "eslint \"**/*.{ts,tsx,js,jsx}\"",
     "lint:fix": "eslint --fix \"**/*.{ts,tsx,js,jsx}\"",
     "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",

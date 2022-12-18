@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc",
+    "typecheck": "tsc --noEmit true",
     "lint": "eslint \"**/*.{ts,tsx,cjs,js,jsx}\"",
     "lint:fix": "eslint --fix \"**/*.{ts,tsx,cjs,js,jsx}\"",
     "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
