@@ -5,7 +5,7 @@ commands:
     steps:
       - run:
           name: "Install pnpm"
-          command: npm i -g pnpm
+          command: npm install -g pnpm
       - restore_cache:
           keys:
             - pnpm-v1-{{ checksum "pnpm-lock.yaml "}}
@@ -17,15 +17,15 @@ commands:
           name: "Check that install didn't create diff"
           command: git diff -s --exit-code pnpm-lock.yaml
       - save_cache:
-        paths:
-          - node_modules
-          - apps/documentation/node_modules
-          - apps/web/node_modules
-          - packages/eslint-config-custom/node_modules
-          - packages/prettier-config-custom/node_modules
-          - packages/tsconfig/node_modules
-          - packages/ui/node_modules
-          - packages/use-url-search-param/node_modules
+          paths:
+            - node_modules
+            - apps/documentation/node_modules
+            - apps/web/node_modules
+            - packages/eslint-config-custom/node_modules
+            - packages/prettier-config-custom/node_modules
+            - packages/tsconfig/node_modules
+            - packages/ui/node_modules
+            - packages/use-url-search-param/node_modules
 
 jobs:
   build:
