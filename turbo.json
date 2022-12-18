@@ -3,13 +3,22 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": ["dist/**"]
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "cache": false
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "outputs": []
     },
     "lint": {
       "outputs": []
-    },
-    "dev": {
-      "cache": false
     },
     "lint:fix": {
       "outputs": []
@@ -18,9 +27,6 @@
       "outputs": []
     },
     "prettier:fix": {
-      "outputs": []
-    },
-    "typecheck": {
       "outputs": []
     },
     "license-checker": {

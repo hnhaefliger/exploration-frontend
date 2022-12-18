@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "start-storybook -p 6006",
+    "dev": "start-storybook -p 3001",
     "build": "build-storybook",
-    "start": "start-storybook -p 6006",
+    "start": "start-storybook -p 3001",
     "typecheck": "tsc --noEmit true",
     "lint": "eslint \"**/*.{ts,tsx,js,jsx}\"",
     "lint:fix": "eslint --fix \"**/*.{ts,tsx,js,jsx}\"",
