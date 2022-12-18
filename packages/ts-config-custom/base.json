@@ -13,6 +13,9 @@
     "noImplicitThis": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
+
+    "lib": ["ES2015"],
+    "module": "CommonJS",
     "target": "es5",
 
     "composite": false,
