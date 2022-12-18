@@ -6,5 +6,5 @@
     "lib": ["dom", "dom.iterable"],
     "jsx": "react"
   },
-  "include": ["src", "vite-env.d.ts"]
+  "include": ["vite-env.d.ts"]
 }

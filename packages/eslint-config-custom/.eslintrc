@@ -21,6 +21,6 @@
             }
         ]
     },
-    "ignorePatterns": ["src/**/*.test.ts", "node_modules", "storybook-static"]
+    "ignorePatterns": ["node_modules"]
 }
 
