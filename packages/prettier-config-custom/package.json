@@ -1,0 +1,16 @@
+{
+  "name": "prettier-config-custom",
+  "version": "0.0.0",
+  "main": ".prettier.config.js",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
+    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\""
+  },
+  "dependencies": {
+    "prettier": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -2,9 +2,18 @@
   "name": "tsconfig",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
+    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\""
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "prettier-config-custom": "workspace:*"
+  },
   "files": [
     "base.json",
     "nextjs.json",
+    "vitejs.json",
     "react-library.json"
   ]
 }

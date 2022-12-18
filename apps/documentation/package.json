@@ -7,7 +7,11 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "start": "start-storybook -p 6006",
-    "lint": "eslint"
+    "typecheck": "tsc",
+    "lint": "eslint \"**/*.{ts,tsx,js,jsx}\"",
+    "lint:fix": "eslint --fix \"**/*.{ts,tsx,js,jsx}\"",
+    "prettier": "prettier --check \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\"",
+    "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,css,less,html,md,json}\""
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -29,9 +33,11 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "babel-loader": "^8.3.0",
-    "typescript": "^4.9.3",
-    "eslint-config-custom": "workspace:*",
     "eslint": "7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "prettier": "latest",
+    "prettier-config-custom": "workspace:*",
+    "typescript": "^4.9.3",
     "tsconfig": "workspace:*",
     "vite": "^4.0.0"
   },
