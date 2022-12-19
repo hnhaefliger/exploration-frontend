@@ -11,6 +11,12 @@ const config: Config = {
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
   transformIgnorePatterns: ["node_modules"],
+  collectCoverage: true,
+  coverageThreshold: {
+    global: {
+      lines: 90,
+    },
+  },
 };
 
 export default config;
