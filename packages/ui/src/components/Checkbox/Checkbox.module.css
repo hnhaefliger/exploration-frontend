@@ -1,0 +1,26 @@
+.checkboxRoot {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px var(--border-base);
+}
+
+.checkboxRoot:hover {
+  background-color: var(--surface-base);
+}
+
+.checkboxRoot:focus {
+  box-shadow: 0 0 0 2px var(--border-base);
+}
+
+[data-color-scheme="light"] .checkboxIndicator {
+  color: blue;
+}
+
+[data-color-scheme="dark"] .checkboxIndicator {
+  color: red;
+}

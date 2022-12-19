@@ -1,0 +1,6 @@
+:root,
+::before,
+::after {
+  --white: hsl(0, 0%, 100%);
+  --black: rgb(0, 0%, 0%);
+}

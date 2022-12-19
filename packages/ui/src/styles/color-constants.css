@@ -1,0 +1,39 @@
+:root {
+  --surface-lowest: var(--white);
+  --surface-lower: var(--white);
+  --surface-base: var(--white);
+  --surface-higher: var(--white);
+  --surface-highest: var(--white);
+
+  --border-lowest: var(--black);
+  --border-lower: var(--black);
+  --border-base: var(--black);
+  --border-higher: var(--black);
+  --border-highest: var(--black);
+
+  --text-lowest: var(--black);
+  --text-lower: var(--black);
+  --text-base: var(--black);
+  --text-higher: var(--black);
+  --text-highest: var(--black);
+}
+
+[data-color-scheme="dark"] :root {
+  --surface-lowest: var(--black);
+  --surface-lower: var(--black);
+  --surface-base: var(--black);
+  --surface-higher: var(--black);
+  --surface-highest: var(--black);
+
+  --border-lowest: var(--white);
+  --border-lower: var(--white);
+  --border-base: var(--white);
+  --border-higher: var(--white);
+  --border-highest: var(--white);
+
+  --text-lowest: var(--white);
+  --text-lower: var(--white);
+  --text-base: var(--white);
+  --text-higher: var(--white);
+  --text-highest: var(--white);
+}

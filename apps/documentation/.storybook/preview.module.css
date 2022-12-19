@@ -1,0 +1,13 @@
+.colorSchemeBlockContainer {
+  display: flex;
+}
+
+.colorSchemeBlock {
+  background-color: var(--surface-base);
+  flex: 1 1 0%;
+  padding: 10px;
+}
+
+.colorSchemeBlock descripton {
+  color: var(--text-base);
+}
